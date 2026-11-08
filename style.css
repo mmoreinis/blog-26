@@ -98,3 +98,17 @@ table#overall td.folder-cell p {
 .yellow {
   background-color:yellow;
 }
+
+/* iPhone Portrait (vertical) - 2 columns */
+@media (max-width: 768px) and (orientation: portrait) {
+  .gallery-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* iPhone Landscape (horizontal) - 3 columns */
+@media (max-width: 1024px) and (orientation: landscape) {
+  .gallery-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
