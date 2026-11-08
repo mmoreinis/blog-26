@@ -1,0 +1,67 @@
+html {
+  height: 100%;
+  width: 100%;
+  font-family: arial, helvetica, sans-serif;
+  background:pink;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+#blogtitle, #blogcomments {
+  padding-top:1em;
+  color:firebrick;
+}
+
+.heading {
+	font-family: georgia, serif;
+	font-weight: bold;
+}
+
+body {
+	background: white;
+	padding: 100px;
+	margin: auto;
+	text-align: justify;
+	width: 895px;
+}
+
+.caption {
+	font-size:13px;
+	font-style:italic;
+	color:grey;
+	text-align:center;
+}
+
+img {
+	display:block;
+	margin:auto;
+}
+
+.reply {
+	margin-left:50px;
+}
+
+.col-lg-6 {
+	width:90%;
+}
+
+a {
+	color:hotpink;
+}
+
+table {
+	
+	margin:auto;
+}

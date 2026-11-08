@@ -1,0 +1,82 @@
+/* LEAVE THESE */
+
+
+/* NEW CSS HERE */
+table {
+    width:100%;
+    border-collapse:collapse;
+}
+td{
+    width:50%;
+    background: #EBE6D5;
+}
+td img{
+    width:100%;
+}
+body{
+     background-image:url(grid.png); 
+     background-repeat:no-repeat;
+     background-position:center;
+     background-attachment:fixed;
+     background-size:cover;
+     border:2px black;
+     width:1000px;
+     min-height: 400%; 
+     margin: 0 auto; 
+     min-height: 100vh;
+     font-family:"Garamond"
+}
+h1{
+    color:#212529;
+    border-radius:25px;
+    background-color:#f8f6ee;
+    padding:20px;
+    border-style:dotted;
+    border-width:thick;
+    border-color:#b3c9ce;
+    width: 640px;
+}
+ html{
+    height:100%;
+    width: 100%;
+    padding:4% 0;
+    background:#ebe6d5;
+}
+img{
+    border-style:dotted;
+    border-width:thick;
+    border-color:darkseagreen;
+}
+a{
+    color:#837d38;
+}
+img.rounded-circle {
+    width:60px;
+    height:60px;
+}
+h2 {
+     color:#212529;
+    border-radius:25px;
+    background-color: rgb(248, 246, 238, .5);
+    padding:15px;
+    border-style:dotted;
+    border-width:thick;
+    border-color:#B4BD81;
+    width:640px;
+}
+div.card-body{
+    background-color: rgb(242, 240, 236);
+}
+div.card-header {
+    background-color:#dbcea4;
+}
+button.btn-primary{
+    background-color:#b3c9ce;
+}
+
+p {
+    background-color: rgb(248, 246, 238, .6);
+}
+ol {
+   background-color: rgb(248, 246, 238, .6); 
+}

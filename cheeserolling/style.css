@@ -1,0 +1,42 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+#blogtitle, #blogcomments {
+  padding-top:1em;
+  color:firebrick;
+  text-align:center;
+}
+.reply{
+  padding-left:50px;
+}
+table, th, td {
+  border: 1px solid;
+}
+body {background-color: rgb(255, 250, 199);}
+table {background-color: rgba(148, 172, 204, 0.658);}
+h1 {color:rgb(0, 0, 0)}
+table {
+  margin:auto
+}
+th {
+  padding:10px
+}
+td {
+  padding:10px
+}

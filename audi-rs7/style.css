@@ -1,0 +1,43 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+#blogtitle, #blogcomments {
+  padding-top:1em;
+  color:rgb(112, 112, 212);
+}
+body,section{
+  background-color:lightgray;
+}
+
+td,th{
+  border:1px solid black;
+  padding:10px;
+}
+
+.reply{
+  padding-left:50px;
+}
+table{
+  background-color:rgb(223, 221, 221);
+  margin:auto;
+}
+td img{
+  width:100%;
+  height:100%;
+}

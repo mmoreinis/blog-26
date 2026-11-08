@@ -1,0 +1,45 @@
+/* LEAVE THESE */
+html {
+  height: 100%;
+  width: 100%;
+}
+
+#blogcomments {
+  text-align:center;
+}
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.reply{
+  margin-left:50px;
+}
+
+/* NEW CSS HERE */
+
+ul {
+  background-color: light purple;
+}
+.container {
+  background-color: #A54CBB;
+  padding:  20px;
+}
+body {
+  background-image: url('grape.sideofscreen.png');
+  background-repeat: repeat;
+  background-size: 300px;
+}
+
+a {
+  color: white;
+}

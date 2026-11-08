@@ -1,0 +1,25 @@
+/* LEAVE THESE */
+
+
+/* NEW CSS HERE */
+th {
+  border-right:2px solid black;
+  padding-right:10;
+  background-image: url("dash.png");
+  background-repeat: no-repeat; /* Prevents the symbol from repeating */
+  background-position: right; /* Positions the symbol in the center */
+}
+
+th::after {
+  content: " "; /* Unicode for em dash */
+  margin-right: 50px;
+}
+
+td {
+    padding-left:10px;
+}
+
+img.rounded-circle{
+  width:50px;
+  hieght:50px;
+}

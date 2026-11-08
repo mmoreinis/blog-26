@@ -1,0 +1,46 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+#blogtitle, #blogcomments {
+  padding-top:1em;
+  color:firebrick;
+}
+
+.reply {
+    padding-left:50px;
+}
+
+body{
+  background-color:#fceb55;
+}
+
+.container{
+  background-color:white;
+  padding:50px;
+}
+
+.face {
+  float:left; padding: 10px;
+}
+
+
+table, tr, td, th {
+  border:1px solid black;
+  padding:10px;
+}

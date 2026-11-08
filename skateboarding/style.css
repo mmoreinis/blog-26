@@ -1,0 +1,36 @@
+/* LEAVE THESE */
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+/* .reply {
+  padding-left:50px;
+} */
+
+#blogcomments {
+  text-align:center;
+}
+
+.mb-4.reply {
+  margin-left:50px!important;
+}
+
+.d-flex.justify-content-center {
+  margin-top:20px!important;
+}
+

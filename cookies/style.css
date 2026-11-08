@@ -1,0 +1,45 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+#blogtitle, #blogcomments {
+  padding-top:1em;
+  color:firebrick;
+}
+
+table, th, td, tr{
+	border:1px solid black;
+	
+}
+
+.steps {
+	text-align:center;
+}
+
+img {
+	width:100%;
+}
+
+p {
+  font-style:normal;
+}
+
+.card mb-4 reply {
+  background-color:beige;
+}
+}

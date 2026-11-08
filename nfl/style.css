@@ -1,0 +1,40 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+th{
+  background-color:red;
+}
+th,td{
+  padding:10px;
+}
+video{
+  object-fit:cover;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+#blogtitle, #blogcomments {
+  padding-top:1em;
+  color:firebrick;
+}
+
+table,tr,td,th{
+  border:1px solid black;
+  text-align:center;
+}
+.reply{
+  padding:50px;
+}

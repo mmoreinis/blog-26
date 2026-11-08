@@ -1,0 +1,96 @@
+#right-gal {
+    float:right;
+    margin-left:30px;
+}
+#right-gal img {
+    width:300px;
+    margin-bottom:30px;
+    float:right;
+    clear:right;
+}
+
+#skateparks table{
+    width:80%;
+}
+
+#skateparks table, #skateparks th, #skateparks td {
+    border:3px solid black;
+    padding:10px;
+    background-color:rgb(219, 219, 255);
+
+}
+
+#skateparks th {
+    background-color:lightblue;
+}
+
+table img {
+    width:300px;
+}
+
+#html {
+    background-color:#dbdada;
+}
+
+#html img {
+    border: 7px solid;
+}
+
+.black {
+    color:black;
+}
+#sources .one {
+    color:white;
+    background-color:rgb(88, 88, 88);
+    padding: 10px;
+    display:inline-block;
+    border-radius:10px;
+    margin:5px;
+    text-decoration:none;
+}
+
+#sources .second {
+    color:white;
+    background-color:rgb(88, 88, 88);
+    padding: 10px;
+    display:inline-block;
+    border-radius:10px;
+    margin:5px;
+    text-decoration:none;
+}
+
+#sources .third {
+    color:white;
+    background-color:rgb(88, 88, 88);
+    padding: 10px;
+    display:inline-block;
+    border-radius:10px;
+    margin:5px;
+    text-decoration:none;
+}
+
+#sources a {
+    color:white;
+}
+
+.d-flex img {
+    width:50px;    
+}
+
+.d-flex p {
+
+}
+
+.d-flex h6 {
+    padding:10px;
+}
+
+.d-flex.flex-row img {
+    width:50px;
+    height:50px;
+    margin-left:10px;
+}
+
+td img {
+    margin-top:-1.2em;
+}

@@ -1,0 +1,72 @@
+/* LEAVE THESE */
+html {
+  height: 100%;
+  width: 100%;
+}
+
+#blogcomments {
+  text-align:center;
+}
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.reply{
+  margin-left:50px;
+}
+
+/* NEW CSS HERE */
+
+p {
+font-size: 20px;
+}
+body {
+  background-color:black;
+  color:rgb(12, 230, 12);
+}
+
+body {
+  background-image: url('Matrix1.gif');
+  background-size: width="10000px";
+  background-position: right center;
+  background-repeat: repeat-y;
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.code {
+  background-color: black;
+  padding: 2px 5px;
+  border-radius: 3px;
+}
+
+#comment {
+  font-family: 'Courier New', Courier, monospace;
+  background-color:black;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+}
+
+.card-body {
+  background-color:black;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.top {
+  background-color: black;
+  padding: 2px 5px;
+  border-radius: 3px;
+  Font-size: 59px;
+}

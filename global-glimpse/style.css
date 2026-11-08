@@ -1,0 +1,55 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+#blogtitle, #blogcomments {
+  padding-top:1em;
+  color:#4e2208;
+}
+
+body{
+  background-color: #7bce7f;
+}
+
+.quote {
+  color:#4e2208;
+}
+
+.reply {
+  padding-left: 50px;
+}
+
+.original {
+  border: 5px solid #4e2208;
+}
+
+p { 
+  color: #031729
+}
+
+li { 
+  color: #031729
+}
+
+h3 { 
+  color: #031729
+}
+
+h5 { 
+  color: #4e2208
+}

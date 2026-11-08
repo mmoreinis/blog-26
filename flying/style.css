@@ -1,0 +1,62 @@
+/* LEAVE THESE */
+html {
+  height: 100%;
+  width: 100%;
+}
+
+#blogcomments {
+  text-align:center;
+}
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.reply{
+  margin-left:50px;
+}
+
+/* NEW CSS HERE */
+.container{
+  background-color:rgb(185, 207, 231);
+}
+body{
+  text-align: left;
+  background-image: url('https://images.pexels.com/photos/8953361/pexels-photo-8953361.jpeg');
+}
+
+h1{
+color:rgb(33, 57, 102);
+font-size: 55px;
+border-style:double;
+border-width:10px;
+border-color:rgb(139, 177, 247);
+font-family:'Cambria'
+}
+
+h2, h3{
+color:rgb(33, 57, 102);
+text-decoration: underline;
+font-size: 25px;
+font-family:'Cambria'
+} 
+
+.img{
+border-style:inset;
+ border-width:10px;
+ border-color:rgb(139, 177, 247)
+}
+
+p, ol, ul, a{
+  font-size: 18px;
+  font-family:'Cambria'
+}

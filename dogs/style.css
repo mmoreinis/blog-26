@@ -1,0 +1,52 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+#blogtitle, #blogcomments {
+  padding-top:1em;
+  color:firebrick;
+}
+
+table,tr,th,td {
+	border:1px solid black;
+	text-align:center;
+  padding:20px;
+}
+
+#wb {
+  background-color:white;
+}
+
+body {
+  background-color:deeppink!important;
+}
+
+
+
+.reply {
+  padding-left:50px;
+}
+
+.dog  {
+  Font-size:18pt;
+}
+.no-pad {
+  padding:0;
+  
+  max-height:350;
+}

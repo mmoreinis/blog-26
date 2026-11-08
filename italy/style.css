@@ -1,0 +1,68 @@
+/* LEAVE THESE */
+html {
+  height: 100%;
+  width: 100%;
+}
+
+#blogcomments {
+  text-align:center;
+}
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.reply{
+  margin-left:50px;
+}
+
+
+/* NEW CSS HERE */
+tbody, td, tfoot, th, thead, tr {
+  border:1px solid black !important;
+  padding:10px!important;
+}
+
+body {
+  background-color: rgb(253, 226, 244);
+  font-size:18px;
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Times New Roman', Times, serif
+}
+h4 {
+  color:blue;
+}
+h1 {
+  color:rgb(245, 98, 208);
+}
+h3 { 
+  color:blueviolet
+}
+p {
+  font-style:italic;
+  font-size:18px;
+}
+table { 
+  font-style:italic
+}
+th {
+  background-color:rgb(223, 119, 134)
+  font-size:25px;
+}
+td {
+  color:rgb(239, 0, 36)
+}
+img {
+  border:2px solid black;
+}

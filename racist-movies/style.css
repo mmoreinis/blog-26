@@ -1,0 +1,76 @@
+/* LEAVE THESE */
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+/* .reply {
+  padding-left:50px;
+} */
+
+#blogcomments {
+  text-align:center;
+}
+
+.mb-4.reply {
+  margin-left:50px!important;
+}
+
+.d-flex.justify-content-center {
+  margin-top:20px!important;
+}
+
+/* NEW CSS HERE */
+
+table img { 
+   width: 150px;
+}
+.fail {
+  color:red;
+  place-self: ;
+}
+td {
+  height: 150px;
+  border-top: 2px solid black;
+  padding: 5px;
+}
+.pass {
+  color: green;
+}
+
+
+.except {
+  color: orangered;
+}
+.caption {
+  width: 400px; 
+  height: 200px;
+ 
+}
+.banner {
+  width: 100%;
+}
+#rainbow {
+  color:mediumslateblue;
+}
+#blogcomments{
+  color: mediumpurple;
+} 
+.pfp {
+  font-size: 1.2rem; 
+}
+

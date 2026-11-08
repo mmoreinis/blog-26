@@ -1,0 +1,61 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color:black;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+#blogtitle, #blogcomments {
+  padding-top:1em;
+  color:firebrick;
+}
+
+th,td {
+padding:0 10px;
+}
+
+body, h2, {
+  font-family:Helvetica;
+ }
+
+ .reply {
+  padding-left:50px;
+ }
+ #flags {
+  background:url("California_Flag.svg") repeat-x;
+  height:300px;
+  width:100%;
+  background-size:contain;
+ }
+ img {
+  float: left;
+}
+figure {
+  float:left;
+}
+.clearfix {
+  clear:left;
+}
+.right-text {
+  font-size:20px;
+}
+.reasons {
+  width:80%;
+  margin:20px auto;
+  background-color:lightgray;
+  padding:20px;
+  
+}

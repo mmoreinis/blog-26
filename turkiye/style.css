@@ -1,0 +1,57 @@
+/* LEAVE THESE */
+html {
+  height: 100%;
+  width: 100%;
+}
+
+#blogcomments {
+  text-align:center;
+}
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.reply{
+  margin-left:50px;
+}
+
+/* NEW CSS HERE */
+ .pb-4 p{
+  color:rgb(104, 147, 172); 
+  padding:0 10px;
+ }
+ .small mb-0 ms-2 p{
+  color:rgb(105, 207, 211);
+ }
+ .flex-row {
+ display:flex;
+   vertical-align: middle;
+   align-items: center; 
+ }
+ .flex-row {
+  display:flex;
+   vertical-align: middle;
+   align-items: center;
+ }
+
+ .flex-row p {
+  margin:0;
+ }
+ #rainbow{
+  color:rgb(105, 207, 211);
+}
+
+.comment{
+  color:rgb(104, 147, 172);
+}
+

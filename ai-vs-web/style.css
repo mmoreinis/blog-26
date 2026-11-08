@@ -1,0 +1,50 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+#blogtitle, #blogcomments {
+  padding-top:1em;
+  color:firebrick;
+}
+
+#dressing {
+  border-style:solid;
+  border-width:5px;
+  border-color:black
+}
+
+#robot {
+  border-style:solid;
+  border-width:5px;
+  border-color:darkred;
+
+  background:url("https://image.cnbcfm.com/api/v1/image/105786247-1552311939465gettyimages-920743046.jpeg?v=1562950112") repeat-x;
+  height:300px;
+  width:100%;
+  background-size:contain;
+}
+
+.reply{
+  padding-left:50px;
+}
+
+#BTL {
+  font-size:40px;
+  color:firebrick;
+  font-style:italic;
+}

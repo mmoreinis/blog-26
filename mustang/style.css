@@ -1,0 +1,69 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+#blogtitle, #blogcomments {
+  padding-top:1em;
+  color:firebrick;
+}
+
+.reply {
+  padding-left: 50px;
+}
+#topborder {
+  margin-top: 25px;
+  
+  border-top: 2px solid black !important;   
+}
+
+body {
+  background-color: #DFE7FF;
+}
+
+section {
+  background-color: #DFE7FF;
+}
+
+#info {
+  border-style:dotted;
+}
+
+#one {
+  border-style:dotted;
+}
+
+#two {
+  border-style:dotted;
+}
+
+#tree {
+  border-style:dotted;
+}
+
+#four {
+  border-style:dotted;
+}
+
+#five {
+  border-style:dotted;
+}
+
+#six {
+  border-style:dotted;
+}
+
