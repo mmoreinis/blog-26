@@ -8,18 +8,42 @@ html {
   color:firebrick;
 }
 
-table#gallery, table#b2024, table#gallery26 {
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   background-color:#fff;
   border:5px solid #fff;
   margin-bottom:50px;
 }
 
-table#gallery26 td {
-  width:50%;
+.gallery-item {
+  min-width: 0;
+  padding:10px;
+  text-align:center;
+  background-color:#000;
 }
 
-table#gallery td, table#b2024 td {
-  width:33%;
+.gallery-item p {
+  font-size:12pt;
+  color:#fff;
+  font-weight:bold;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.gallery-item img {
+  width:min(250px, 100%);
+  height:auto;
+  aspect-ratio:1;
+  object-fit:cover;
+  clip-path:circle(50%);
+}
+
+#gallery26 .gallery-item {
+  background-color:#446732;
+}
+
+#b2024 .gallery-item {
+  background-color:rgb(98, 3, 3);
 }
 
 #inst {
@@ -46,39 +70,26 @@ table#instructions th {
   height:2em;
 }
 
-table#gallery td, table#b2024 td, table#gallery26 td {
+table#overall td.folder-cell {
+  width:33%;
   padding:10px;
   text-align:center;
   vertical-align:top;
   background-color:#000;
 }
 
-table#gallery26 td {
-background-color:#446732;
+table#overall td.folder-cell img {
+  width:200px;
+  height:200px;
+  clip-path:circle(50%);
 }
 
-table#b2024 td {
- background-color:rgb(98, 3, 3);
-}
-
-table#gallery td p, table#b2024 td p, table#gallery26 p {
+table#overall td.folder-cell p {
   font-size:12pt;
   color:#fff;
   font-weight:bold;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
-table#gallery td img, table#b2024 td img, table#gallery26 td img{
-  width:200px;
-  height:200px;
-  clip-path: circle(50%);
-}
-
-table#gallery26 td img {
-  height:300px;
-  width:300px;
-}
-
 
 .reply {
   margin-left:50px!important;
